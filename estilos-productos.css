@@ -100,3 +100,70 @@ footer{
     font-size: 13px;
     margin: 20px;
 }
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    
+    background-color: darkorange;
+    transform: scale(1.2);
+}
+
+.tbl-horario{
+
+    border: #000000;
+    border-style: solid;
+    margin:14px 20px;
+
+}
+
+thead{
+    background-color: #555555;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+td{
+    border: #000000;
+    border-style: solid;
+    text-align: center;
+    padding: 5px;
+}
